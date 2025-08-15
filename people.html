@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>People | Berkeley Kelsen Society</title>
+  <style>
+   body {
+  font-family: 'Georgia', serif;
+  margin: 0;
+  padding: 0;
+  background-color: #fdfaf3;
+}
+
+     header {
+  background-color: #a48047;
+  color: #f8f4e3;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 20px 60px;
+  font-family: 'Georgia', serif;
+  letter-spacing: 0.5px;
+  border-top: 8px double #f8f4e3;
+  border-bottom: 8px double #f8f4e3;
+  text-align: center;
+}
+
+    footer {
+  background-color: #a48047;
+  color: #f8f4e3;
+  padding: 20px;
+  text-align: center;
+  font-family: 'Georgia', serif;
+  border-top: 8px double #f8f4e3;
+}
+
+    nav {
+  background-color: #a48047;
+  display: flex;
+  justify-content: center;
+  font-family: 'Georgia', serif;
+}
+    nav a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  margin: 0;
+  padding: 20px;
+  text-decoration: none;
+  color: #f8f4e3;
+  font-weight: bold;
+  transition: background-color 0.3s;
+  border: 1px solid transparent;
+}
+    nav a:hover {
+  background-color: #805c2a;
+  color: #f8f4e3;
+}
+
+   h2 {
+      text-align: center;
+      margin-top: 40px;
+      font-size: 2em;
+      color: #333;
+    }
+
+    .people-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+      gap: 20px;
+      justify-items: center;
+      padding: 40px 20px;
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+
+    .person-card {
+      text-align: center;
+      background-color: #fff;
+      padding: 15px;
+      border: 1px solid #ddd;
+      border-radius: 8px;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    }
+
+    .profile-photo {
+      width: 180px;
+      height: 180px;
+      object-fit: cover;
+      border-radius: 8px;
+      margin-bottom: 10px;
+    }
+
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Berkeley Kelsen Society</h1>
+  <p>University of California, Berkeley</p>
+</header>
+
+<nav>
+<a href="index.html">Home</a>
+  <a href="people.html">People</a>
+  <a href="events.html">Events</a>
+  <a href="resources.html">Resources</a>
+  <a href="contact.html">Contact</a>
+</nav>
+
+<h2>Our People</h2>
+
+  <div class="people-grid">
+    <div class="person-card">
+      <img src="picture/1.jpg" alt="Jane Doe" class="profile-photo">
+      <h3>Jane Doe</h3>
+      <p>Jane is a PhD student studying the intersection of legal positivism and democratic theory. She co-coordinates reading groups on early modern jurisprudence.</p>
+    </div>
+
+    <div class="person-card">
+      <img src="picture/2.jpg" alt="John Smith" class="profile-photo">
+      <h3>John Smith</h3>
+      <p>John focuses on constitutional theory and the legacy of Hans Kelsen in modern Austrian thought. He also organizes workshops on global legal pluralism.</p>
+    </div>
+
+    <div class="person-card">
+      <img src="picture/3.jpg" alt="Alice Lee" class="profile-photo">
+      <h3>Alice Lee</h3>
+      <p>Alice’s research engages with critical legal studies and theories of justice in postcolonial contexts. She is active in cross-campus collaborations.</p>
+    </div>
+
+    <div class="person-card">
+      <img src="picture/4.jpg" alt="Mark Chen" class="profile-photo">
+      <h3>Mark Chen</h3>
+      <p>Mark studies legal hermeneutics and the influence of Roman law on early Enlightenment political theory. He is passionate about translation and archival work.</p>
+    </div>
+
+    <div class="person-card">
+      <img src="picture/5.jpg" alt="Sarah Gomez" class="profile-photo">
+      <h3>Sarah Gomez</h3>
+      <p>Sarah’s interests lie in feminist jurisprudence, international law, and the ethics of adjudication. She helps coordinate speaker series and visiting lectures.</p>
+    </div>
+
+    <div class="person-card">
+      <img src="picture/6.jpg" alt="David Lin" class="profile-photo">
+      <h3>David Lin</h3>
+      <p>David explores Marxist legal theory and the socio-political structures that underpin legal authority. He is involved in both academic and activist communities.</p>
+    </div>
+  </div>
+
+
+  <footer>
+    <p>&copy; All rights reserved.</p>
+  </footer>
